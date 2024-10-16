@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">Light Mode</h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- contenedor__banner -->
+        <section class="contenedor__banner">
+
+            <div class="contenedor">
+
+                <!-- banner__titulo -->
+                <div class="banner__titulo">
+                    <h2 class="titulo__banner">
+                        Learn more <br>
+                        withlight mode
+                    </h2>
+
+                </div>
+
+
+                <!-- banner__textos -->
+                <div class="banner__textos">
+                    <p class="texto__parrafo">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, ut velit reiciendis quam
+                        architecto exercitationem hic possimus autem quidem quisquam quae molestiae ducimus explicabo
+                        pariatur!
+                    </p>
+
+                    <a href="#Services" class="btn btn__services">Services</a>
+
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+
+
+    </header>
+
+
+    <!-- Services -->
+    <section class="contenedor__services" id="Services">
+        <div class="contenedor">
+
+            <!-- titulo -->
+            <div class="services__titulo">
+                <h3>Services</h3>
+            </div>
+
+
+            <!-- contenediso -->
+            <div class="services__grupos">
+                <div class="grupo__caja">
+                    <h4>Business Plan Services</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita a quidem non vitae iusto
+                        obcaecati optio, praesentium dolorem, commodi iste blanditiis ex qui nulla voluptas tempora
+                        accusantium soluta consequuntur! Deleniti.
+                    </p>
+                </div>
+
+
+                <div class="grupo__caja">
+                    <h4>Brand Identity</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita a quidem non
+                        vitae iusto
+                        obcaecati optio, praesentium dolorem, commodi iste blanditiis ex qui nulla
+                        voluptas tempora
+                        accusantium soluta consequuntur! Deleniti.
+                    </p>
+                </div>
+
+
+                <div class="grupo__caja">
+                    <h4>Social Media Planning</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita a quidem non
+                        vitae iusto
+                        obcaecati optio, praesentium dolorem, commodi iste blanditiis ex qui nulla
+                        voluptas tempora
+                        accusantium soluta consequuntur! Deleniti.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- About -->
+    <section class="contenedor__about" id="About">
+        <div class="contenedor">
+
+            <div class="about__titulo">
+                <h3>About</h3>
+            </div>
+
+            <div class="about__lado1">
+                <p class="parrafo1__formato">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum ullam dolor?
+                    Necessitatibus illum odit
+                    optio tempore cumque reprehenderit recusandae id. Nostrum, aliquid. Ipsa perspiciatis soluta et.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit cum, tempora laudantium quis
+                    in distinctio
+                    accusamus esse rem, et quo, mollitia eveniet delectus harum officiis sunt incidunt exercitationem
+                    hic? Labore aspernatur
+                    ea quod totam aliquam a alias dignissimos voluptatibus.
+                </p>
+
+            </div>
+
+
+            <div class="about__lado2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cupiditate voluptatum a delectus
+                    ratione recusandae
+                    possimus corrupti assumenda autem numquam fuga quisquam id dolorum, eveniet maxime unde explicabo
+                    dolor. Voluptatum unde
+                    modi neque ab optio nostrum exercitationem accusamus dolor magni.
+                </p>
+
+                <p class="parrafo2__formato">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At iste itaque, a reiciendis sit omnis qui
+                    illum delectus
+                    deserunt corporis iusto voluptate officia aliquid possimus rerum? Sequi eos, pariatur quod ea rerum
+                    vero delectus hic.
+                </p>
+
+                <p class="parrafo2__formato">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, doloribus officiis natus
+                    quibusdam ab nam a perspiciatis enim vero quis impedit. Quas deserunt veritatis, doloremque, ut,
+                    dolorum soluta libero eos voluptates molestias ipsa at obcaecati. Amet sequi iusto error quidem
+                    magni dolor doloribus autem doloremque molestiae nulla odio, quod ipsum consequuntur voluptate.
+                    Repellendus quibusdam veniam cum debitis, dolorem nihil nam!
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- Contact -->
+    <section class="contenedor__contact" id="Contact">
+        <div class="contenedor">
+
+            <div class="contact__titulo">
+                <h3>Contact</h3>
+            </div>
+
+            <div class="contact__formulario">
+
+                <form action="#">
+                    <div class="form__group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="Yes"
+                            class="form__control">
+                    </div>
+
+
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required="Yes"
+                            class="form__control">
+                    </div>
+
+
+                    <div class="form__group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required="Yes"
+                            class="form__control"></textarea>
+                    </div>
+
+                    <button>Contact Us</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+    < <!-- pie -->
+        <footer class="contenedor__footer">
+            <div class="contenedor">
+
+                <div class="pie__titulo">
+                    <p>
+                        &copy;2024, Derechos Reservados, Diseñado por
+                        <span class="autor">93R50N</span>
+
+                        <br>
+                        <span class="donacion">
+                            <a href="https://bit.ly/40a5M7V">- Donación -</a>
+                        </span>
+                    </p>
+
+                </div>
+
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
