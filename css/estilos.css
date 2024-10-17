@@ -392,21 +392,12 @@ span.donacion a
 {
     color: var(--colorEstilo2);
     font-weight: 600;
-    letter-spacing: 8px;
+
 }
+
 span.donacion a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -719,6 +710,7 @@ span.donacion a:hover{
         
     }
 }
+
 
 
 
