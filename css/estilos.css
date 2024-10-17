@@ -28,8 +28,10 @@
 
     box-sizing: border-box;
 
-
+    
+    /*    
     outline: 1px solid red;
+    */
 
 
     -webkit-box-sizing: border-box;
@@ -243,8 +245,9 @@ div.services__grupos{
 }
 
 div.grupo__caja{
-    width: 30%;
-    float: left;    
+    width: 33%;
+    float: left;
+    padding: 40px;
 }
 
 
@@ -430,7 +433,7 @@ span.donacion a:hover{
         text-align: center;
         padding: 0;
     }
-   
+
 
     
     div.superior__menu ul.menu__opciones li{
@@ -511,6 +514,7 @@ span.donacion a:hover{
     div.grupo__caja{
         float: none;
         width: 100%;
+        
     }
 
 
@@ -615,6 +619,53 @@ span.donacion a:hover{
 
 /**************************************/
 
+@media screen and  (max-width: 576px) 
+
+{
+        header.contenedor__header{
+        height: 100%;   /********************************** ojo ahi */
+    }
+
+
+    
+    div.banner__titulo{
+        float: none;
+        margin: auto;
+        width: 100%;        
+    }
+
+    div.banner__textos{
+        float: none;
+        margin: auto;
+        width: 100%;      
+    }
+
+    h2.titulo__banner{
+        font-size: 2rem;
+    }
+
+
+    /**/
+    section.contenedor__banner{
+        background-color: var(--colorEstilo2);
+        background-image: url("../imagenes/showcase.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    a.btn{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        
+    }
+
+
+}
 
 
 
@@ -622,14 +673,52 @@ span.donacion a:hover{
 
 
 
+@media screen and  (max-width: 1150px)
+
+{
+        header.contenedor__header{
+        height: 100%;   /********************************** ojo ahi */
+    }
+
+
+    
+    div.banner__titulo{
+        float: none;
+        margin: auto;
+        width: 100%;        
+    }
+
+    div.banner__textos{
+        float: none;
+        margin: auto;
+        width: 100%;      
+    }
+
+    h2.titulo__banner{
+        font-size: 2rem;
+    }
 
 
 
+    /**/
+    section.contenedor__banner{
+        background-color: var(--colorEstilo2);
+        background-image: url("../imagenes/showcase.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
-
-
-
+    a.btn{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        
+    }
+}
 
 
 
